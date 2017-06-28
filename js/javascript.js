@@ -1,5 +1,3 @@
-
-
 $(document).ready(function(){
 
     $('.nav-links li a').on('click', function(){
@@ -15,7 +13,6 @@ $(document).ready(function(){
 
   $(window).scroll(function(){
       var windscroll = $(window).scrollTop();
-      console.log(windscroll);
 
       if (windscroll > 130) {
           $('#navbar').addClass('navbar-fixed');
@@ -67,13 +64,11 @@ if (document.all && !window.atob) {
 
     $('.toggle-nav').click(function(){
         $('.nav').addClass('show_div');
-        $('.container, .carousel, footer').addClass('overlay');
         $("body").css("overflow","hidden");
     });
 
     $('.close, .carousel, .container, footer, .nav-links li a').click(function(){
         $('.nav').removeClass('show_div');
-        $('.container, .carousel, footer').removeClass('overlay');
         $("body").css("overflow","visible");
     });
 
