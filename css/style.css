@@ -1063,7 +1063,7 @@ footer {
   z-index: 12;
   right: 20px;
   bottom: 20px;
-  background-image: url("../images/scroll.png");
+  background-image: url("../images/scroll.svg");
    background-size: 100% 100%; 
   width: 40px;
   height:40px;
@@ -1234,6 +1234,13 @@ footer {
   }
 }
 
+@media screen and (max-device-width:480px) {
+  .email input[type="submit"] {
+    font-size: 150%;
+    bottom: 3px;
+  }
+}
+
 /* ============================== */
 /* Small Phones
    (0 ~ 480px)                    */
@@ -1345,10 +1352,6 @@ footer {
   .footer {
     font-size: 90%;
     height: 170px;
-  }
-  .email input[type="submit"] {
-    font-size: 150%;
-    bottom: 3px;
   }
 }
 
