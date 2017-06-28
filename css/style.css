@@ -593,7 +593,9 @@ button:focus {
 /* ============================== */
 /* UI Code                        */
 /*================================*/
-
+.w_100 {
+  width: 100% !important;
+}
 /* Spacing */
 .pa_20 {
   padding: 20px;
@@ -609,6 +611,9 @@ button:focus {
 }
 .pt_60 {
   padding-top: 60px;
+}
+.pt_150 {
+  padding-top: 150px;
 }
 .pb_10 {
   padding-bottom: 10px;
@@ -1162,7 +1167,7 @@ footer {
     display: block !important;
   }
   .nav-links li a.active {
-    color: #EFB9C1;
+    color: #F288B7;
     border-bottom: 0;
   }
   div.nav {
@@ -1290,7 +1295,7 @@ footer {
   }
   .nav-links li a.active {
     border-bottom: 0;
-    color: #EFB9C1;
+    color: #F288B7;
   }
   .show_desktop_only {
     display: none;
