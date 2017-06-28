@@ -994,8 +994,9 @@ nav {
 /* EMAIL                          */
 /*================================*/
 .email input[type="text"] {
+  border-radius: 0;
   border: 0;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #4c4b4b;
   padding: 0 0 15px 10px;
   width: 100%;
   font-family:"Futura W04";
@@ -1008,8 +1009,6 @@ nav {
   right: 2%;
   top: 0;
 }
-
-
 
 
 /* ============================== */
@@ -1346,6 +1345,10 @@ footer {
   .footer {
     font-size: 90%;
     height: 170px;
+  }
+  .email input[type="submit"] {
+    font-size: 150%;
+    bottom: 3px;
   }
 }
 
