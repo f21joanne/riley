@@ -563,9 +563,11 @@ h1, h5 {
 
 a:link, a:visited, a:active {
   color: #4c4b4b;
+  cursor: pointer;
 }
 
 a:active, a:hover {
+  cursor: pointer;
   text-decoration: none;
 }
 
@@ -720,7 +722,7 @@ button:focus {
 .show_div {
   left: 0;
 }
-.show_mobile_only, .show_device_only, .hide {
+.show_mobile_only, .show_device_only {
   display: none;
 }
 
@@ -1053,6 +1055,38 @@ footer {
 }
 .footer>div {
   padding-top: 47px;
+}
+
+/* ============================== */
+/* POPUP                          */
+/*================================*/
+.popup {
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,.5);
+  z-index:2000;
+  position: fixed;
+  top: 0;
+  display: table;
+}
+.popup>div {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.popup>div>div {
+  /* width: 100%; */
+  margin: 0 auto;
+  background-color: #fff;
+  height: 500px;
+  overflow-y: scroll;
+}
+.popup_close {
+  width: 18px;
+  position: absolute;
+  top: 18px;
+  right: 15px;
+  cursor: pointer;
 }
 
 /* ============================== */
