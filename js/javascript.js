@@ -11,6 +11,14 @@ $(document).ready(function(){
     return false;
     });
 
+    $('#terms').on('click', function(){
+      $('.popup').attr('style', 'display:table !important');
+    });
+
+    $('.popup_close').on('click', function(){
+      $('.popup').attr('style', 'display:none');
+    });
+
   $(window).scroll(function(){
       var windscroll = $(window).scrollTop();
 
