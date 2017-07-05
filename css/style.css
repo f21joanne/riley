@@ -1,4 +1,4 @@
-/* RileyRose 6/27/2017 Version 1 by Joanne Kim */
+/* RileyRose 6/29/2017 Version 1 by Joanne Kim */
 
 @font-face{
     font-family:"Futura W04_n2";
@@ -445,9 +445,6 @@ template {
   display: none;
 }
 
-
-
-
 /* =================== GRID OF 12 =================== */
 
 /*  SECTIONS  ====================================== */
@@ -563,11 +560,9 @@ h1, h5 {
 
 a:link, a:visited, a:active {
   color: #4c4b4b;
-  cursor: pointer;
 }
 
 a:active, a:hover {
-  cursor: pointer;
   text-decoration: none;
 }
 
@@ -640,8 +635,8 @@ button:focus {
 .mr_70 {
   margin-right: 70px;
 }
-.m_60 {
-  margin-top: -60px !important;
+.m_70 {
+  margin-top: -70px !important;
 }
 
 /* Text */
@@ -722,7 +717,7 @@ button:focus {
 .show_div {
   left: 0;
 }
-.show_mobile_only, .show_device_only {
+.show_mobile_only, .show_device_only, .hide {
   display: none;
 }
 
@@ -821,11 +816,11 @@ nav {
 }
 
 .pagination {
-    list-style: none;
-    position: absolute;
-    top: 95%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  list-style: none;
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .pagination li {
     display: inline-block;
@@ -1017,7 +1012,6 @@ nav {
   top: 0;
 }
 
-
 /* ============================== */
 /* CAREERS                        */
 /*================================*/
@@ -1055,38 +1049,6 @@ footer {
 }
 .footer>div {
   padding-top: 47px;
-}
-
-/* ============================== */
-/* POPUP                          */
-/*================================*/
-.popup {
-  height: 100%;
-  width: 100%;
-  background: rgba(0,0,0,.5);
-  z-index:2000;
-  position: fixed;
-  top: 0;
-  display: table;
-}
-.popup>div {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-}
-.popup>div>div {
-  /* width: 100%; */
-  margin: 0 auto;
-  background-color: #fff;
-  height: 500px;
-  overflow-y: scroll;
-}
-.popup_close {
-  width: 18px;
-  position: absolute;
-  top: 18px;
-  right: 15px;
-  cursor: pointer;
 }
 
 /* ============================== */
@@ -1160,9 +1122,6 @@ footer {
   .col_m_12_of_12 {
     width: 100%;
   }
-/*  .carousel div {
-    max-height: 600px;
-  }*/
   .span_4_of_12, .span_6_of_12, .span_8_of_12 {
     width: 100%;
   }
@@ -1203,19 +1162,21 @@ footer {
   div.nav {
     background-color: #fff;
     border-bottom: 1px solid #ebebeb;
-    height: 101%;
+    height: 100%;
     width: 100%;
     position: fixed;
-    top: 0;
-    left: -100%;
+    top: -100%;
+    opacity: 0;
+/*    left: -100%;*/
     z-index: 8;
     font-size: 120%;
     text-transform: uppercase;
   }
   div.nav.show_div {
-    left: 0;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
+    top: 0;
+    opacity: 1;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
   }
   div.nav li {
     margin-top: 10px;
@@ -1229,14 +1190,18 @@ footer {
   .show_device_only {
     display: block;
   }
-    .close {
-      width: 20px;
-      position: absolute;
-      top: 20px;
-      right: 20px;
-    }
+  .close {
+    width: 20px;
+    position: absolute;
+    left: 20px;
+    top: 28px;
+  }
+  .swiper-pagination-switch {
+    width: 11px;
+    height: 11px;
+    margin: 0 0 5px 15px;
+  }
 }
-
 
 /* ============================== */
 /* Small Phones ~ Small Tablet
@@ -1244,15 +1209,15 @@ footer {
 
 /*================================*/
 @media only screen and (max-width: 768px) {
-    .mobile_only {
-      display: block !important;
-    }
-    .desktop_carousel {
-      display: none !important;
-    } 
-    .nav-links li a {
-      color: #000;
-    }
+  .mobile_only {
+    display: block !important;
+  }
+  .desktop_carousel {
+    display: none !important;
+  } 
+  .nav-links li a {
+    color: #000;
+  }
   .show_device_only {
     display: block;
   }
@@ -1393,12 +1358,17 @@ footer {
     font-size: 90%;
     height: 150px;
   }
+  .swiper-pagination-switch {
+    width: 10px;
+    height: 10px;
+    margin: 0 0 4px 15px;
+  }
 }
 
 
 /* ============================== */
 /* Small Phones
-   (0 ~ 480px)                    */
+   (0 ~ 320px)                    */
 /*================================*/
 @media only screen and (max-width: 320px) {
   .swiper-container {
