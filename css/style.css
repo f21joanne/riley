@@ -1205,6 +1205,9 @@ footer {
     height: 11px;
     margin: 0 0 5px 15px;
   }
+  .pagination {
+    left: 49%;
+  }
 }
 
 /* ============================== */
@@ -1369,6 +1372,9 @@ footer {
   }
   .hiring {
     margin-top: 50px;
+  }
+  .pagination {
+    left: 47.5%;
   }
 }
 
