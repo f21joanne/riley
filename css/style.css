@@ -640,7 +640,7 @@ button:focus {
 }
 
 /* Text */
-.underline {
+.underline, a.underline {
   text-decoration: underline;
 }
 .txc {
@@ -1014,6 +1014,10 @@ nav {
   background: none;
   right: 2%;
   top: 0;
+}
+.tooltip {
+  color: #f2001e;
+  padding-top: 10px;
 }
 
 /* ============================== */
