@@ -1,4 +1,4 @@
-/* RileyRose 6/29/2017 Version 1 by Joanne Kim */
+/* RileyRose 7/5/2017 Version 1 by Joanne Kim */
 
 @font-face{
     font-family:"Futura W04_n2";
@@ -1017,6 +1017,39 @@ nav {
 }
 
 /* ============================== */
+/* POPUP                          */
+/*================================*/
+.popup {
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,.5);
+  z-index:2000;
+  position: fixed;
+  top: 0;
+  display: table;
+}
+.popup>div {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.popup>div>div {
+  /* width: 100%; */
+  margin: 0 auto;
+  background-color: #fff;
+  height: 50%;
+  overflow-y: scroll;
+  border-radius: 5px;
+}
+.popup_close {
+  width: 18px;
+  position: absolute;
+  top: 18px;
+  right: 15px;
+  cursor: pointer;
+}
+
+/* ============================== */
 /* CAREERS                        */
 /*================================*/
 .careers_bg, .contact_bg {
@@ -1179,8 +1212,8 @@ footer {
   div.nav.show_div {
     top: 0;
     opacity: 1;
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
   }
   div.nav li {
     margin-top: 10px;
