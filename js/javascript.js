@@ -11,8 +11,9 @@ $(document).ready(function(){
     return false;
     });
 
-    $('#terms').on('click', function(){
+    $('.submit').on('click', function(e){
       $('.popup').attr('style', 'display:table !important');
+      e.preventDefault();
     });
 
     $('.popup_close').on('click', function(){
