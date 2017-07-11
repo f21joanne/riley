@@ -8,11 +8,8 @@
     	<meta name="description" content="Riley Rose is a beauty and lifestyle universe where play, discovery, and self-expression are celebrated.">
 		<meta name="keywords" content="Forever 21, Riley Rose">
 		<meta name="author" content="Forever 21">
-    	<link rel="stylesheet" type="text/css" href="css/style.css">
+    	<link rel="stylesheet" type="text/css" href="css/style_uncompressed.css">
 		<link rel="shortcut icon" type="image/x-icon" href="images/icon.ico?">
-		<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script> 
-		<script type="text/javascript" src="js/javascript.js"></script>
-		<script type="text/javascript" src="js/idangerous.swiper.min.js"></script>
 	</head>
 
 <body>
@@ -53,7 +50,7 @@
 		<nav id="navbar">
 			<div class="span_12_of_12">
 				<div class="span_3_of_12 col_s_10_of_10 fc txc">
-					<a href="#"><img src="images/rr_logo.png" alt="Riley Rose" class="logo"></a>
+					<a href="#"><img src="images/rr_logo.svg" alt="Riley Rose" class="logo"></a>
 				</div>
 			</div>
 			<div class="nav">
@@ -118,21 +115,27 @@
 							</form>
 						</div>
 						<div class="span_5_of_12 col_s_10_of_10 fc tooltip">
-							<p class="f_90">This field is required.</p>
+<!-- 							<p class="f_90">This field is required.</p>
+							<p class="f_90">Please enter a valid email address.</p>
+							<p class="f_90">This email address is already registered.</p> -->
 						</div>
 					</div>
 				</section>
 			<!-- EMAIL E -->
 
 			<!-- POPUP S -->
-			  <div class="popup" style="display: none;">
+			<div class="p_bg">
+			  <div class="popup" id="popup">
 			  	<div>
-			  		<div class="pa_20 pt_60 span_5_of_12 col_s_10_of_10 relative">
-			  			<img src="images/icon_close.svg" class="popup_close">
-			  			<p class="pb_20 f_150">Thank you for joining Riley's World!</p>
+			  		<div class="pa_20 span_7_of_12 col_m_9_of_12 col_s_9_of_10 relative p_message white">
+			  			<img src="images/icon_close_w.svg" class="popup_close">
+			  			<p class="pb_40 f_150 underline t_bold">Sweet!</p>
+			  			<p class="f_70 t_bold">YOU'VE JOINED THE SQUAD.</p>
+			  			<p class="f_70 t_bold">WE'LL BE IN TOUCH SOON WITH INFO AND UPDATES FROM THE WORLD OF RILEY ROSE.</p>
 			  		</div>
 			  	</div>
 			  </div>
+			</div>
 			<!-- POPUP E -->
 
 			<!-- CAREERS S -->
@@ -155,15 +158,15 @@
 			<!-- FIND US S -->
 				<section>
 				<div class="section">
-					<div class="span_12_of_12 row txc find-us pa_20 pt_60 pb_60" data-anchor="find">
+					<div class="span_12_of_12 row txc find-us pa_20 pt_120 pb_60" data-anchor="find">
 						<div class="span_8_of_12 col_s_10_of_10 fc">
 							<h5 class="pb_20">FIND US:</h5>
 							<img src="images/findus.jpg" class="store-img">
-							<p class="f_150 pt_30 pb_80">GLENDALE GALLERIA: OPENING FALL 2017</p>
+							<p class="f_150 pt_30 pb_40">GLENDALE GALLERIA: OPENING FALL 2017</p>
 							<p class="f_130 pb_20">@RILEYROSE 24/7:</p>
 
 							<div class="social-media span_12_of_12 col_m_12_of_12 col_s_10_of_10 fc txc">
-								<div class="span_3_of_12 col_m_2_of_12 col_s_2_of_10 pb_20 inline">
+								<div class="span_3_of_12 col_m_2_of_12 col_s_2_of_10 inline">
 									<p class="fc pb_10" id="circle"></p>
 									<a href="http://www.instagram.com/rileyrose" target="_blank"><img src="images/instagram.svg" alt="Instagram"></a>
 								</div>
@@ -185,8 +188,8 @@
 			<!-- CONTACT S -->
 				<section>
 				<div class="section">
-					<div class="span_12_of_12 txc contact pa_20 pt_60 pb_150 contact_bg pt_150" data-anchor="contact-us">
-						<div class="span_3_of_12 col_s_10_of_10 fc txc pb_20 contact-img relative">
+					<div class="span_12_of_12 txc contact pa_20 pt_60 pb_150 contact_bg" data-anchor="contact-us">
+						<div class="span_3_of_12 col_s_10_of_10 fc txc pb_20 pt_60 contact-img relative">
 							<img src="images/contact-img.png">
 							<p>CONTACT</p>
 						</div>
@@ -218,5 +221,8 @@
 			</div>
 		</div>
 	</footer>
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script> 
+<script type="text/javascript" src="js/javascript.js"></script>
+<script type="text/javascript" src="js/idangerous.swiper.min.js"></script>
 </body>
 </html>
