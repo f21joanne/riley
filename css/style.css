@@ -1013,7 +1013,7 @@ nav {
 /* ABOUT                          */
 /*================================*/
 .about-images {
-  height: 650px;
+  height: 570px;
   overflow: hidden;
   margin-top: 30px;
 }
@@ -1386,7 +1386,7 @@ footer {
     display: block;
   }
   .about-us, .email, .careers_bg {
-    padding: 30px;
+    /* padding: 30px; */
   }
   .carousel .c_title {
     font-size: 230%;
@@ -1463,6 +1463,11 @@ footer {
   .glendale {
     padding-bottom:20px;
   }
+  .email {
+    padding-top: 0;
+    margin-bottom: -40px !important;
+  }
+
 }
 
 
