@@ -1,35 +1,51 @@
 /* RileyRose 7/13/2017 Version 1 by Joanne Kim */
 
 @font-face{
-    font-family:"Futura W04_n2";
-    src:url("../Fonts/7a0bcc93-4ec5-4962-8f7d-b0a2ba0cad4b.eot?#iefix") format("eot")
+  font-family:"Futura W04_n2";
+  src:url("../Fonts/7a0bcc93-4ec5-4962-8f7d-b0a2ba0cad4b.eot?#iefix") format("eot")
 }
 @font-face{
-    font-family:"Futura W04";
-    src:url("../Fonts/7a0bcc93-4ec5-4962-8f7d-b0a2ba0cad4b.eot?#iefix");
-    src:url("../Fonts/7a0bcc93-4ec5-4962-8f7d-b0a2ba0cad4b.eot?#iefix") format("eot"),
-    url("../Fonts/9550426d-1ed5-4fb6-8e1c-0529c8546247.woff2") format("woff2"),
-    url("../Fonts/9432cd19-89de-4884-bef2-8507ee5588e0.woff") format("woff"),
-    url("../Fonts/dc4205f2-bbb2-4c49-a37b-c3ed1585f174.ttf") format("truetype"),
-    url("../Fonts/8b01c1a5-04c8-4a6b-a925-79f92a72cbef.svg#8b01c1a5-04c8-4a6b-a925-79f92a72cbef") format("svg");
-    font-weight: 200;
-    font-style: normal;
+  font-family:"Futura W04";
+  src:url("../Fonts/7a0bcc93-4ec5-4962-8f7d-b0a2ba0cad4b.eot?#iefix");
+  src:url("../Fonts/7a0bcc93-4ec5-4962-8f7d-b0a2ba0cad4b.eot?#iefix") format("eot"),
+  url("../Fonts/9550426d-1ed5-4fb6-8e1c-0529c8546247.woff2") format("woff2"),
+  url("../Fonts/9432cd19-89de-4884-bef2-8507ee5588e0.woff") format("woff"),
+  url("../Fonts/dc4205f2-bbb2-4c49-a37b-c3ed1585f174.ttf") format("truetype"),
+  url("../Fonts/8b01c1a5-04c8-4a6b-a925-79f92a72cbef.svg#8b01c1a5-04c8-4a6b-a925-79f92a72cbef") format("svg");
+  font-weight: 200;
+  font-style: normal;
 }
 @font-face{
-        font-family:"Futura W05_n5";
-        src:url("../Fonts/28223bee-779a-414b-a7a3-a6afeeac3146.eot?#iefix") format("eot")
-    }
+  font-family:"Futura W05_n5";
+  src:url("../Fonts/28223bee-779a-414b-a7a3-a6afeeac3146.eot?#iefix") format("eot")
+}
 @font-face{
-        font-family:"Futura W05";
-        src:url("../Fonts/28223bee-779a-414b-a7a3-a6afeeac3146.eot?#iefix");
-        src:url("../Fonts/28223bee-779a-414b-a7a3-a6afeeac3146.eot?#iefix") format("eot"),
-        url("../Fonts/55ed9b50-6dd3-4d1d-83f9-b86d944b92f8.woff2") format("woff2"),
-        url("../Fonts/9b5a5fd6-0255-45f5-9235-436ca9ca503a.woff") format("woff"),
-        url("../Fonts/e733fa7f-f1a5-4b16-9b19-7cf64cc121b2.ttf") format("truetype"),
-        url("../Fonts/d88cecc7-49c4-4576-b40a-977000258f17.svg#d88cecc7-49c4-4576-b40a-977000258f17") format("svg");
-font-weight: 500;
-font-style: normal;
-    }
+  font-family:"Futura W05";
+  src:url("../Fonts/28223bee-779a-414b-a7a3-a6afeeac3146.eot?#iefix");
+  src:url("../Fonts/28223bee-779a-414b-a7a3-a6afeeac3146.eot?#iefix") format("eot"),
+  url("../Fonts/55ed9b50-6dd3-4d1d-83f9-b86d944b92f8.woff2") format("woff2"),
+  url("../Fonts/9b5a5fd6-0255-45f5-9235-436ca9ca503a.woff") format("woff"),
+  url("../Fonts/e733fa7f-f1a5-4b16-9b19-7cf64cc121b2.ttf") format("truetype"),
+  url("../Fonts/d88cecc7-49c4-4576-b40a-977000258f17.svg#d88cecc7-49c4-4576-b40a-977000258f17") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face{
+  font-family:"Futura W05_n7";
+  src:url("Fonts/176425b4-b961-408d-8ac9-a0a5e417a51a.eot?#iefix") format("eot")
+}
+@font-face{
+  font-family:"Futura W05";
+  src:url("../Fonts/176425b4-b961-408d-8ac9-a0a5e417a51a.eot?#iefix");
+  src:url("../Fonts/176425b4-b961-408d-8ac9-a0a5e417a51a.eot?#iefix") format("eot"),
+  url("../Fonts/c2f71420-d945-4767-a4b5-2d89288f9564.woff2") format("woff2"),
+  url("../Fonts/0aac257e-f213-4ee3-9d72-79be01391bab.woff") format("woff"),
+  url("../Fonts/f1d8b761-a85d-4e89-baf5-5f5b04b21695.ttf") format("truetype"),
+  url("../Fonts/98c67cfc-9aa4-4b84-be45-7c92345fb90e.svg#98c67cfc-9aa4-4b84-be45-7c92345fb90e") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
 
 /*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */
 
@@ -635,6 +651,9 @@ button:focus {
 .pt_150 {
   padding-top: 150px;
 }
+.pl_30 {
+  padding-left: 30px;
+}
 .pb_10 {
   padding-bottom: 10px;
 }
@@ -722,6 +741,10 @@ button:focus {
 .t_bold {
   font-family:"Futura W05";
 }
+/*.c_bold {
+  font-family:"Futura W05";
+  font-weight: 700;
+}*/
 
 /* Font Size */
 .white {
@@ -964,9 +987,9 @@ nav {
   -ms-touch-action: pan-x;
 }
 
-.hiring {
+/*.hiring {
   margin-top: 30px;
-}
+}*/
 
 /* ============================== */
 /* CAROUSEL                       */
@@ -977,7 +1000,8 @@ nav {
 }
 .swiper-slide {
   width: 100%;
-  background-size: cover;
+/*  height: 100%;*/
+  background-size: cover !important;
 }
 /*.carousel .arrow-left {
   background: url(../images/arrows.png) no-repeat left top;
@@ -1013,7 +1037,11 @@ nav {
 }
 .carousel .c_title {
   position: relative;
-  top: 330px;
+  top: 370px;
+  font-size: 24px;
+  letter-spacing: 2px;
+  font-family:"Futura W05";
+  font-weight: 700;
 }
 
 /* ============================== */
@@ -1185,10 +1213,13 @@ footer {
     height: 700px;
   }
   .carousel .c_title {
-    top: 270px;
+    top: 318px;
   }
   .close {
     display: none;
+  }
+  .swiper-slide:nth-child(3) {
+    background-position: 50% 0 !important;
   }
 }
 
@@ -1272,7 +1303,7 @@ footer {
     padding: 20px 40px 100px 40px;
   }
   .carousel .c_title {
-    top: 270px;
+    top: 314px;
   }
   .show_device_only {
     display: block;
@@ -1330,7 +1361,6 @@ footer {
     display: block;
   }
   .carousel .c_title {
-    font-size: 250%;
     top: 290px;
   }
   .info .logo {
@@ -1396,8 +1426,8 @@ footer {
      padding: 30px; 
   }*/
   .carousel .c_title {
-    font-size: 230%;
-    top: 196px;
+    font-size: 120%;
+    top: 236px;
   }
   .about-images {
     padding: 0;
@@ -1448,9 +1478,9 @@ footer {
     height: 9px;
     margin: 0 0 3px 15px;
   }
-  .hiring {
+/*  .hiring {
     margin-top: 50px;
-  }
+  }*/
   .pagination {
     left: 47.5%;
   }
@@ -1480,6 +1510,9 @@ footer {
     width: 18px;
     margin: 0;
   }
+  .swiper-slide .pl_30 {
+    padding-left: 5px;
+  }
 }
 
 
@@ -1490,10 +1523,7 @@ footer {
   .swiper-container {
     height: 500px;
   }
-  .carousel .c_title {
-    font-size: 200%;
-    top: 150px;
-  }
+  .carousel .c_title {font-size: 96%;top: 213px;}
   .f_130 {
     font-size: 90%;
   }
