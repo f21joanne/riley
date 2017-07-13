@@ -1005,7 +1005,7 @@ nav {
 }
 
 .swiper-slide:nth-child(3) {
-  background-position: 0 0% !important; !important
+  background-position: 0 16% !important; !important
 }
 /*.carousel .arrow-left {
   background: url(../images/arrows.png) no-repeat left top;
@@ -1212,9 +1212,12 @@ footer {
   cursor: pointer;
 }
 
-@media only screen and (min-width:1300px) {
+@media only screen and (min-width:1400px) {
   .swiper-slide:nth-child(3) p {
     margin-left: -700px;
+  }
+  .swiper-slide:nth-child(3) p:nth-child(2) {
+    margin-right: 50px;
   }
 }
 
