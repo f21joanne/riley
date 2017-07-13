@@ -1003,6 +1003,10 @@ nav {
 /*  height: 100%;*/
   background-size: cover !important;
 }
+
+.swiper-slide:nth-child(3) {
+  background-position: 0 0% !important; !important
+}
 /*.carousel .arrow-left {
   background: url(../images/arrows.png) no-repeat left top;
   position: absolute;
@@ -1206,6 +1210,12 @@ footer {
   height:40px;
   text-align:center;
   cursor: pointer;
+}
+
+@media only screen and (min-width:1400px) {
+  .swiper-slide:nth-child(3) p {
+    margin-left: -700px;
+  }
 }
 
 @media only screen and (max-width: 1400px) {
