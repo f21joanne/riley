@@ -1072,9 +1072,9 @@ nav {
   opacity: 0;
 }
 .p_bg {
-  height: 100vh;
+  height: 120%;
   width: 100%;
-  background: rgba(0,0,0,.7);
+  background: rgba(0, 0, 0, .7);
   position: fixed;
   z-index: 2000;
   opacity: 0;
@@ -1085,6 +1085,7 @@ nav {
   display: table;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
+  /* height: 100vh; */
 }
 .popup.show_box {
   opacity: 1;
@@ -1508,4 +1509,5 @@ footer {
     padding-top: 0;
   }
 }
+
 
